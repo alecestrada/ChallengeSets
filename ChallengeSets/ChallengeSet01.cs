@@ -46,16 +46,27 @@ namespace ChallengeSets
 
         public long Multiply(long factor1, long factor2)
         {
-            throw new NotImplementedException();
+            return factor1 * factor2;
+            //throw new NotImplementedException();
         }
 
         public string GetGreeting(string nameOfPerson)
         {
-            throw new NotImplementedException();
+
+            if (nameOfPerson == "")
+            {
+                return "Hello!";
+            }
+            else
+            {
+                return "Hello, " + nameOfPerson + "!";
+            }
+           // throw new NotImplementedException();
         }
 
         public string GetHey()
         {
+           
             return "HEY!";
         }
     }
