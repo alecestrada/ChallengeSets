@@ -18,18 +18,30 @@ namespace ChallengeSets
 
         public double Subtract(double minuend, double subtrahend)
         {
+            return minuend - subtrahend;
+            // throw new NotImplementedException();
             
-            throw new NotImplementedException();
+
         }
+
 
         public int Add(int number1, int number2)
         {
-            throw new NotImplementedException();
+            return number1 + number2;
+            //throw new NotImplementedException();
         }
 
         public int GetSmallestNumber(int number1, int number2)
         {
-            throw new NotImplementedException();
+           if (number1 < number2)
+            {
+                return number1;
+            }
+            else
+            {
+                return number2;
+            }
+            //throw new NotImplementedException();
         }
 
         public long Multiply(long factor1, long factor2)
