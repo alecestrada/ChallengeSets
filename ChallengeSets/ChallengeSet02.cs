@@ -7,12 +7,22 @@ namespace ChallengeSets
     {
         public bool CharacterIsALetter(char c)
         {
-            throw new NotImplementedException();
+            if(c is char)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+            //throw new NotImplementedException();
         }
 
         public bool CountOfElementsIsEven(string[] vals)
         {
-            throw new NotImplementedException();
+            vals = i;
+            for(i >0, i)
+            //throw new NotImplementedException();
         }
 
         public bool IsNumberEven(int number)
